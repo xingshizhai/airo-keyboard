@@ -1,0 +1,128 @@
+{
+  "project": "esp32-ai-keyboard",
+  "feature": "WiFi Info Display",
+  "created_at": "2026-03-08T00:24:00.750716",
+  "tasks": [
+    {
+      "id": "TASK-001",
+      "title": "OpenCode \u9879\u76ee\u4ee3\u7801\u9605\u8bfb",
+      "description": "\u4e86\u89e3\u9879\u76ee\u67b6\u6784\u548c ESP-IDF v6.x API",
+      "assignee": "@opencode",
+      "priority": "P0",
+      "status": "Done",
+      "created_at": "2026-03-08T00:24:00.750722",
+      "completed_at": "2026-03-08T09:07:13.087518"
+    },
+    {
+      "id": "TASK-002",
+      "title": "\u521b\u5efa branch_wifi \u5206\u652f",
+      "description": "\u4ece main \u521b\u5efa\u65b0\u7684\u5f00\u53d1\u5206\u652f",
+      "assignee": "@opencode",
+      "priority": "P0",
+      "status": "Done",
+      "created_at": "2026-03-08T00:24:00.750724",
+      "completed_at": "2026-03-08T09:07:13.087524"
+    },
+    {
+      "id": "TASK-003",
+      "title": "\u6dfb\u52a0 WiFi \u7ec4\u4ef6",
+      "description": "\u5728 components \u76ee\u5f55\u6dfb\u52a0 WiFi \u8fde\u63a5\u7ec4\u4ef6",
+      "assignee": "@opencode",
+      "priority": "P0",
+      "status": "Done",
+      "created_at": "2026-03-08T00:24:00.750726",
+      "completed_at": "2026-03-08T09:07:13.087526"
+    },
+    {
+      "id": "TASK-004",
+      "title": "\u5b9e\u73b0 Station \u6a21\u5f0f\u8fde\u63a5",
+      "description": "\u8fde\u63a5 SSID: DeepSeek, \u5bc6\u7801\uff1aWxxncbdmm1804",
+      "assignee": "@opencode",
+      "priority": "P0",
+      "status": "Done",
+      "created_at": "2026-03-08T00:24:00.750727",
+      "completed_at": "2026-03-08T09:07:13.087527"
+    },
+    {
+      "id": "TASK-005",
+      "title": "LCD \u663e\u793a WiFi \u72b6\u6001",
+      "description": "\u5728 LCD \u4e0a\u663e\u793a\u8fde\u63a5\u72b6\u6001\u548c IP \u5730\u5740",
+      "assignee": "@opencode",
+      "priority": "P1",
+      "status": "Done",
+      "created_at": "2026-03-08T00:24:00.750728",
+      "completed_at": "2026-03-08T09:07:13.087528"
+    },
+    {
+      "id": "TASK-006",
+      "title": "\u5b9e\u73b0\u81ea\u52a8\u91cd\u8fde",
+      "description": "WiFi \u65ad\u5f00\u65f6\u81ea\u52a8\u91cd\u8fde",
+      "assignee": "@opencode",
+      "priority": "P1",
+      "status": "Done",
+      "created_at": "2026-03-08T00:24:00.750730",
+      "completed_at": "2026-03-08T09:07:13.087529"
+    },
+    {
+      "id": "TASK-007",
+      "title": "\u7f16\u8bd1\u548c\u70e7\u5f55\u6d4b\u8bd5",
+      "description": "\u7f16\u8bd1\u56fa\u4ef6\u5e76\u70e7\u5f55\u5230 ESP32 \u786c\u4ef6",
+      "assignee": "@opencode",
+      "priority": "P0",
+      "status": "Done",
+      "created_at": "2026-03-08T00:24:00.750731",
+      "completed_at": "2026-03-08T09:07:13.087530"
+    },
+    {
+      "id": "TASK-008",
+      "title": "\u4ee3\u7801\u5ba1\u67e5\u548c\u8d28\u91cf\u68c0\u67e5",
+      "description": "\u4ee3\u7801\u5ba1\u67e5\u3001\u6d4b\u8bd5\u9a8c\u8bc1",
+      "assignee": "@project-manager",
+      "priority": "P0",
+      "status": "Done",
+      "created_at": "2026-03-08T00:24:00.750732",
+      "completed_at": "2026-03-08T09:07:13.087531"
+    },
+    {
+      "id": "TASK-009",
+      "title": "\u6dfb\u52a0 Wi-Fi Info \u83dc\u5355\u9879",
+      "description": "\u5728\u4e3b\u83dc\u5355\u4e2d\u65b0\u589e Wi-Fi Info \u9009\u9879",
+      "assignee": "@opencode",
+      "priority": "P0",
+      "status": "Done",
+      "created_at": "2026-03-08T09:22:36.729401",
+      "completed_at": "2026-03-08T10:00:34.207306"
+    },
+    {
+      "id": "TASK-010",
+      "title": "\u5b9e\u73b0 WiFi \u72b6\u6001\u663e\u793a UI",
+      "description": "\u663e\u793a WiFi \u8fde\u63a5\u72b6\u6001\u3001IP \u5730\u5740\u3001SSID \u7b49\u4fe1\u606f",
+      "assignee": "@opencode",
+      "priority": "P0",
+      "status": "Done",
+      "created_at": "2026-03-08T09:22:36.729408",
+      "completed_at": "2026-03-08T10:00:34.207311"
+    },
+    {
+      "id": "TASK-011",
+      "title": "\u96c6\u6210 WiFi \u72b6\u6001\u67e5\u8be2 API",
+      "description": "\u8c03\u7528 wifi_get_state() \u548c wifi_get_ip_address()",
+      "assignee": "@opencode",
+      "priority": "P0",
+      "status": "Done",
+      "created_at": "2026-03-08T09:22:36.729410",
+      "completed_at": "2026-03-08T10:00:34.207313"
+    },
+    {
+      "id": "TASK-012",
+      "title": "\u7f16\u8bd1\u548c\u70e7\u5f55\u6d4b\u8bd5",
+      "description": "\u9a8c\u8bc1\u65b0\u529f\u80fd",
+      "assignee": "@opencode",
+      "priority": "P0",
+      "status": "Done",
+      "created_at": "2026-03-08T09:22:36.729412",
+      "completed_at": "2026-03-08T10:00:34.207314"
+    }
+  ],
+  "updated_at": "2026-03-08T10:00:34.207315"
+}

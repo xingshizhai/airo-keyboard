@@ -1,0 +1,6 @@
+version: "0.1.0"
+description: "ESP32 USB Keyboard Application"
+dependencies:
+  idf: ">=6.0.0"
+  espressif/button: ">=3.0.0"
+  espressif/esp_tinyusb: ">=1.4.0"

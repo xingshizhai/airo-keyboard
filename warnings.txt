@@ -1,0 +1,1209 @@
+Enabled checks:
+    bugprone-argument-comment
+    bugprone-assert-side-effect
+    bugprone-assignment-in-if-condition
+    bugprone-bad-signal-to-kill-thread
+    bugprone-bitwise-pointer-cast
+    bugprone-bool-pointer-implicit-conversion
+    bugprone-branch-clone
+    bugprone-casting-through-void
+    bugprone-chained-comparison
+    bugprone-compare-pointer-to-member-virtual-function
+    bugprone-copy-constructor-init
+    bugprone-crtp-constructor-accessibility
+    bugprone-dangling-handle
+    bugprone-dynamic-static-initializers
+    bugprone-easily-swappable-parameters
+    bugprone-empty-catch
+    bugprone-exception-escape
+    bugprone-fold-init-type
+    bugprone-forward-declaration-namespace
+    bugprone-forwarding-reference-overload
+    bugprone-implicit-widening-of-multiplication-result
+    bugprone-inaccurate-erase
+    bugprone-inc-dec-in-conditions
+    bugprone-incorrect-enable-if
+    bugprone-incorrect-enable-shared-from-this
+    bugprone-incorrect-roundings
+    bugprone-infinite-loop
+    bugprone-integer-division
+    bugprone-lambda-function-name
+    bugprone-macro-repeated-side-effects
+    bugprone-misplaced-operator-in-strlen-in-alloc
+    bugprone-misplaced-pointer-arithmetic-in-alloc
+    bugprone-misplaced-widening-cast
+    bugprone-move-forwarding-reference
+    bugprone-multi-level-implicit-pointer-conversion
+    bugprone-multiple-new-in-one-expression
+    bugprone-multiple-statement-macro
+    bugprone-narrowing-conversions
+    bugprone-no-escape
+    bugprone-non-zero-enum-to-bool-conversion
+    bugprone-nondeterministic-pointer-iteration-order
+    bugprone-not-null-terminated-result
+    bugprone-optional-value-conversion
+    bugprone-parent-virtual-call
+    bugprone-pointer-arithmetic-on-polymorphic-object
+    bugprone-posix-return
+    bugprone-redundant-branch-condition
+    bugprone-reserved-identifier
+    bugprone-return-const-ref-from-parameter
+    bugprone-shared-ptr-array-mismatch
+    bugprone-signal-handler
+    bugprone-signed-char-misuse
+    bugprone-sizeof-container
+    bugprone-sizeof-expression
+    bugprone-spuriously-wake-up-functions
+    bugprone-standalone-empty
+    bugprone-string-constructor
+    bugprone-string-integer-assignment
+    bugprone-string-literal-with-embedded-nul
+    bugprone-stringview-nullptr
+    bugprone-suspicious-enum-usage
+    bugprone-suspicious-include
+    bugprone-suspicious-memory-comparison
+    bugprone-suspicious-memset-usage
+    bugprone-suspicious-missing-comma
+    bugprone-suspicious-realloc-usage
+    bugprone-suspicious-semicolon
+    bugprone-suspicious-string-compare
+    bugprone-suspicious-stringview-data-usage
+    bugprone-swapped-arguments
+    bugprone-switch-missing-default-case
+    bugprone-tagged-union-member-count
+    bugprone-terminating-continue
+    bugprone-throw-keyword-missing
+    bugprone-too-small-loop-variable
+    bugprone-unchecked-optional-access
+    bugprone-undefined-memory-manipulation
+    bugprone-undelegated-constructor
+    bugprone-unhandled-exception-at-new
+    bugprone-unhandled-self-assignment
+    bugprone-unique-ptr-array-mismatch
+    bugprone-unsafe-functions
+    bugprone-unused-local-non-trivial-variable
+    bugprone-unused-raii
+    bugprone-unused-return-value
+    bugprone-use-after-move
+    bugprone-virtual-near-miss
+    clang-analyzer-core.BitwiseShift
+    clang-analyzer-core.CallAndMessage
+    clang-analyzer-core.CallAndMessageModeling
+    clang-analyzer-core.DereferenceModeling
+    clang-analyzer-core.DivideZero
+    clang-analyzer-core.DynamicTypePropagation
+    clang-analyzer-core.NonNullParamChecker
+    clang-analyzer-core.NonnilStringConstants
+    clang-analyzer-core.NullDereference
+    clang-analyzer-core.StackAddrEscapeBase
+    clang-analyzer-core.StackAddressEscape
+    clang-analyzer-core.UndefinedBinaryOperatorResult
+    clang-analyzer-core.VLASize
+    clang-analyzer-core.builtin.BuiltinFunctions
+    clang-analyzer-core.builtin.NoReturnFunctions
+    clang-analyzer-core.uninitialized.ArraySubscript
+    clang-analyzer-core.uninitialized.Assign
+    clang-analyzer-core.uninitialized.Branch
+    clang-analyzer-core.uninitialized.CapturedBlockVariable
+    clang-analyzer-core.uninitialized.NewArraySize
+    clang-analyzer-core.uninitialized.UndefReturn
+    clang-analyzer-unix.API
+    clang-analyzer-unix.BlockInCriticalSection
+    clang-analyzer-unix.Chroot
+    clang-analyzer-unix.DynamicMemoryModeling
+    clang-analyzer-unix.Errno
+    clang-analyzer-unix.Malloc
+    clang-analyzer-unix.MallocSizeof
+    clang-analyzer-unix.MismatchedDeallocator
+    clang-analyzer-unix.StdCLibraryFunctions
+    clang-analyzer-unix.Stream
+    clang-analyzer-unix.Vfork
+    clang-analyzer-unix.cstring.BadSizeArg
+    clang-analyzer-unix.cstring.CStringModeling
+    clang-analyzer-unix.cstring.NotNullTerminated
+    clang-analyzer-unix.cstring.NullArg
+    performance-avoid-endl
+    performance-enum-size
+    performance-faster-string-find
+    performance-for-range-copy
+    performance-implicit-conversion-in-loop
+    performance-inefficient-algorithm
+    performance-inefficient-string-concatenation
+    performance-inefficient-vector-operation
+    performance-move-const-arg
+    performance-move-constructor-init
+    performance-no-automatic-move
+    performance-no-int-to-ptr
+    performance-noexcept-destructor
+    performance-noexcept-move-constructor
+    performance-noexcept-swap
+    performance-trivially-destructible
+    performance-type-promotion-in-math-fn
+    performance-unnecessary-copy-initialization
+    performance-unnecessary-value-param
+    readability-avoid-nested-conditional-operator
+    readability-avoid-return-with-void-value
+    readability-avoid-unconditional-preprocessor-if
+    readability-braces-around-statements
+    readability-const-return-type
+    readability-container-contains
+    readability-container-data-pointer
+    readability-container-size-empty
+    readability-convert-member-functions-to-static
+    readability-delete-null-pointer
+    readability-duplicate-include
+    readability-else-after-return
+    readability-enum-initial-value
+    readability-function-cognitive-complexity
+    readability-function-size
+    readability-identifier-length
+    readability-identifier-naming
+    readability-implicit-bool-conversion
+    readability-inconsistent-declaration-parameter-name
+    readability-isolate-declaration
+    readability-make-member-function-const
+    readability-math-missing-parentheses
+    readability-misleading-indentation
+    readability-misplaced-array-index
+    readability-named-parameter
+    readability-non-const-parameter
+    readability-operators-representation
+    readability-qualified-auto
+    readability-redundant-access-specifiers
+    readability-redundant-casting
+    readability-redundant-control-flow
+    readability-redundant-declaration
+    readability-redundant-function-ptr-dereference
+    readability-redundant-inline-specifier
+    readability-redundant-member-init
+    readability-redundant-preprocessor
+    readability-redundant-smartptr-get
+    readability-redundant-string-cstr
+    readability-redundant-string-init
+    readability-reference-to-constructed-temporary
+    readability-simplify-boolean-expr
+    readability-simplify-subscript-expr
+    readability-static-accessed-through-instance
+    readability-static-definition-in-anonymous-namespace
+    readability-string-compare
+    readability-suspicious-call-argument
+    readability-uniqueptr-delete-release
+    readability-uppercase-literal-suffix
+    readability-use-anyofallof
+    readability-use-std-min-max
+
+Running clang-tidy for 34 files out of 34 in compilation database ...
+[ 1/34][0.0s] /Users/robot/.espressif/tools/esp-clang/esp-20.1.1_20250829/esp-clang/bin/clang-tidy -header-filter=.*\..* -checks=-*,clang-analyzer-core.NullDereference,clang-analyzer-unix.*,bugprone-*,-bugprone-macro-parentheses,readability-*,performance-*,-readability-magic-numbers,-readability-avoid-const-params-in-decls -p=/Users/robot/projects/esp32-ai-keyboard/build /Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__tinyusb/src/class/dfu/dfu_rt_device.c
+error: unknown argument: '-fno-malloc-dce' [clang-diagnostic-error]
+error: unknown argument: '-fno-shrink-wrap' [clang-diagnostic-error]
+error: unknown argument: '-fzero-init-padding-bits=all' [clang-diagnostic-error]
+error: unknown warning option '-Wno-old-style-declaration'; did you mean '-Wno-out-of-line-declaration'? [clang-diagnostic-unknown-warning-option]
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_assert.h:7:9: warning: declaration uses identifier '__ESP_ASSERT_H__', which is a reserved identifier [bugprone-reserved-identifier]
+    7 | #define __ESP_ASSERT_H__
+      |         ^~~~~~~~~~~~~~~~
+      |         ESP_ASSERT_H_
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_libc/platform_include/assert.h:12:10: error: 'stdlib.h' file not found [clang-diagnostic-error]
+   12 | #include <stdlib.h>
+      |          ^~~~~~~~~~
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_libc/platform_include/assert.h:29:9: warning: declaration uses identifier '__FILENAME__', which is a reserved identifier [bugprone-reserved-identifier]
+   29 | #define __FILENAME__ (__builtin_strrchr( "/" __FILE__, '/') + 1)
+      |         ^~~~~~~~~~~~
+      |         FILENAME_
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__tinyusb/src/common/tusb_compiler.h:33:9: warning: declaration uses identifier '_TUSB_COMPILER_H_', which is a reserved identifier [bugprone-reserved-identifier]
+   33 | #define _TUSB_COMPILER_H_
+      |         ^~~~~~~~~~~~~~~~~
+      |         TUSB_COMPILER_H_
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__tinyusb/src/common/tusb_compiler.h:48:11: warning: declaration uses identifier '_TU_COUNTER_', which is a reserved identifier [bugprone-reserved-identifier]
+   48 |   #define _TU_COUNTER_ __COUNTER__
+      |           ^~~~~~~~~~~~
+      |           TU_COUNTER_
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__tinyusb/src/common/tusb_compiler.h:115:9: warning: declaration uses identifier '_TU_ARGS_APPLY_4', which is a reserved identifier [bugprone-reserved-identifier]
+  115 | #define _TU_ARGS_APPLY_4(_X, _s, _a1, _a2, _a3, _a4)                     _X(_a1) _s _TU_ARGS_APPLY_3(_X, _s, _a2, _a3, _a4)
+      |         ^~~~~~~~~~~~~~~~
+      |         TU_ARGS_APPLY_4
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__tinyusb/src/common/tusb_compiler.h:116:9: warning: declaration uses identifier '_TU_ARGS_APPLY_5', which is a reserved identifier [bugprone-reserved-identifier]
+  116 | #define _TU_ARGS_APPLY_5(_X, _s, _a1, _a2, _a3, _a4, _a5)                _X(_a1) _s _TU_ARGS_APPLY_4(_X, _s, _a2, _a3, _a4, _a5)
+      |         ^~~~~~~~~~~~~~~~
+      |         TU_ARGS_APPLY_5
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__tinyusb/src/common/tusb_compiler.h:117:9: warning: declaration uses identifier '_TU_ARGS_APPLY_6', which is a reserved identifier [bugprone-reserved-identifier]
+  117 | #define _TU_ARGS_APPLY_6(_X, _s, _a1, _a2, _a3, _a4, _a5, _a6)           _X(_a1) _s _TU_ARGS_APPLY_5(_X, _s, _a2, _a3, _a4, _a5, _a6)
+      |         ^~~~~~~~~~~~~~~~
+      |         TU_ARGS_APPLY_6
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__tinyusb/src/common/tusb_compiler.h:118:9: warning: declaration uses identifier '_TU_ARGS_APPLY_7', which is a reserved identifier [bugprone-reserved-identifier]
+  118 | #define _TU_ARGS_APPLY_7(_X, _s, _a1, _a2, _a3, _a4, _a5, _a6, _a7)      _X(_a1) _s _TU_ARGS_APPLY_6(_X, _s, _a2, _a3, _a4, _a5, _a6, _a7)
+      |         ^~~~~~~~~~~~~~~~
+      |         TU_ARGS_APPLY_7
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__tinyusb/src/common/tusb_compiler.h:119:9: warning: declaration uses identifier '_TU_ARGS_APPLY_8', which is a reserved identifier [bugprone-reserved-identifier]
+  119 | #define _TU_ARGS_APPLY_8(_X, _s, _a1, _a2, _a3, _a4, _a5, _a6, _a7, _a8) _X(_a1) _s _TU_ARGS_APPLY_7(_X, _s, _a2, _a3, _a4, _a5, _a6, _a7, _a8)
+      |         ^~~~~~~~~~~~~~~~
+      |         TU_ARGS_APPLY_8
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__tinyusb/src/tusb_option.h:28:9: warning: declaration uses identifier '_TUSB_OPTION_H_', which is a reserved identifier [bugprone-reserved-identifier]
+   28 | #define _TUSB_OPTION_H_
+      |         ^~~~~~~~~~~~~~~
+      |         TUSB_OPTION_H_
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__tinyusb/src/tusb_option.h:219:9: warning: declaration uses identifier '_TU_CHECK_MCU', which is a reserved identifier [bugprone-reserved-identifier]
+  219 | #define _TU_CHECK_MCU(_m)    (CFG_TUSB_MCU == _m)
+      |         ^~~~~~~~~~~~~
+      |         TU_CHECK_MCU
+  220 | #define TU_CHECK_MCU(...)    (TU_ARGS_APPLY(_TU_CHECK_MCU, ||, __VA_ARGS__))
+      |                                             ~~~~~~~~~~~~~
+      |                                             TU_CHECK_MCU
+92 warnings and 6 errors generated.
+Error while processing /Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__tinyusb/src/class/dfu/dfu_rt_device.c.
+Suppressed 81 warnings (81 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+Found compiler error(s).
+
+[ 2/34][0.0s] /Users/robot/.espressif/tools/esp-clang/esp-20.1.1_20250829/esp-clang/bin/clang-tidy -header-filter=.*\..* -checks=-*,clang-analyzer-core.NullDereference,clang-analyzer-unix.*,bugprone-*,-bugprone-macro-parentheses,readability-*,performance-*,-readability-magic-numbers,-readability-avoid-const-params-in-decls -p=/Users/robot/projects/esp32-ai-keyboard/build /Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__tinyusb/src/class/vendor/vendor_device.c
+error: unknown argument: '-fno-malloc-dce' [clang-diagnostic-error]
+error: unknown argument: '-fno-shrink-wrap' [clang-diagnostic-error]
+error: unknown argument: '-fzero-init-padding-bits=all' [clang-diagnostic-error]
+error: unknown warning option '-Wno-old-style-declaration'; did you mean '-Wno-out-of-line-declaration'? [clang-diagnostic-unknown-warning-option]
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_assert.h:7:9: warning: declaration uses identifier '__ESP_ASSERT_H__', which is a reserved identifier [bugprone-reserved-identifier]
+    7 | #define __ESP_ASSERT_H__
+      |         ^~~~~~~~~~~~~~~~
+      |         ESP_ASSERT_H_
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_libc/platform_include/assert.h:12:10: error: 'stdlib.h' file not found [clang-diagnostic-error]
+   12 | #include <stdlib.h>
+      |          ^~~~~~~~~~
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_libc/platform_include/assert.h:29:9: warning: declaration uses identifier '__FILENAME__', which is a reserved identifier [bugprone-reserved-identifier]
+   29 | #define __FILENAME__ (__builtin_strrchr( "/" __FILE__, '/') + 1)
+      |         ^~~~~~~~~~~~
+      |         FILENAME_
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__tinyusb/src/common/tusb_compiler.h:33:9: warning: declaration uses identifier '_TUSB_COMPILER_H_', which is a reserved identifier [bugprone-reserved-identifier]
+   33 | #define _TUSB_COMPILER_H_
+      |         ^~~~~~~~~~~~~~~~~
+      |         TUSB_COMPILER_H_
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__tinyusb/src/common/tusb_compiler.h:48:11: warning: declaration uses identifier '_TU_COUNTER_', which is a reserved identifier [bugprone-reserved-identifier]
+   48 |   #define _TU_COUNTER_ __COUNTER__
+      |           ^~~~~~~~~~~~
+      |           TU_COUNTER_
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__tinyusb/src/common/tusb_compiler.h:115:9: warning: declaration uses identifier '_TU_ARGS_APPLY_4', which is a reserved identifier [bugprone-reserved-identifier]
+  115 | #define _TU_ARGS_APPLY_4(_X, _s, _a1, _a2, _a3, _a4)                     _X(_a1) _s _TU_ARGS_APPLY_3(_X, _s, _a2, _a3, _a4)
+      |         ^~~~~~~~~~~~~~~~
+      |         TU_ARGS_APPLY_4
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__tinyusb/src/common/tusb_compiler.h:116:9: warning: declaration uses identifier '_TU_ARGS_APPLY_5', which is a reserved identifier [bugprone-reserved-identifier]
+  116 | #define _TU_ARGS_APPLY_5(_X, _s, _a1, _a2, _a3, _a4, _a5)                _X(_a1) _s _TU_ARGS_APPLY_4(_X, _s, _a2, _a3, _a4, _a5)
+      |         ^~~~~~~~~~~~~~~~
+      |         TU_ARGS_APPLY_5
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__tinyusb/src/common/tusb_compiler.h:117:9: warning: declaration uses identifier '_TU_ARGS_APPLY_6', which is a reserved identifier [bugprone-reserved-identifier]
+  117 | #define _TU_ARGS_APPLY_6(_X, _s, _a1, _a2, _a3, _a4, _a5, _a6)           _X(_a1) _s _TU_ARGS_APPLY_5(_X, _s, _a2, _a3, _a4, _a5, _a6)
+      |         ^~~~~~~~~~~~~~~~
+      |         TU_ARGS_APPLY_6
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__tinyusb/src/common/tusb_compiler.h:118:9: warning: declaration uses identifier '_TU_ARGS_APPLY_7', which is a reserved identifier [bugprone-reserved-identifier]
+  118 | #define _TU_ARGS_APPLY_7(_X, _s, _a1, _a2, _a3, _a4, _a5, _a6, _a7)      _X(_a1) _s _TU_ARGS_APPLY_6(_X, _s, _a2, _a3, _a4, _a5, _a6, _a7)
+      |         ^~~~~~~~~~~~~~~~
+      |         TU_ARGS_APPLY_7
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__tinyusb/src/common/tusb_compiler.h:119:9: warning: declaration uses identifier '_TU_ARGS_APPLY_8', which is a reserved identifier [bugprone-reserved-identifier]
+  119 | #define _TU_ARGS_APPLY_8(_X, _s, _a1, _a2, _a3, _a4, _a5, _a6, _a7, _a8) _X(_a1) _s _TU_ARGS_APPLY_7(_X, _s, _a2, _a3, _a4, _a5, _a6, _a7, _a8)
+      |         ^~~~~~~~~~~~~~~~
+      |         TU_ARGS_APPLY_8
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__tinyusb/src/tusb_option.h:28:9: warning: declaration uses identifier '_TUSB_OPTION_H_', which is a reserved identifier [bugprone-reserved-identifier]
+   28 | #define _TUSB_OPTION_H_
+      |         ^~~~~~~~~~~~~~~
+      |         TUSB_OPTION_H_
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__tinyusb/src/tusb_option.h:219:9: warning: declaration uses identifier '_TU_CHECK_MCU', which is a reserved identifier [bugprone-reserved-identifier]
+  219 | #define _TU_CHECK_MCU(_m)    (CFG_TUSB_MCU == _m)
+      |         ^~~~~~~~~~~~~
+      |         TU_CHECK_MCU
+  220 | #define TU_CHECK_MCU(...)    (TU_ARGS_APPLY(_TU_CHECK_MCU, ||, __VA_ARGS__))
+      |                                             ~~~~~~~~~~~~~
+      |                                             TU_CHECK_MCU
+92 warnings and 6 errors generated.
+Error while processing /Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__tinyusb/src/class/vendor/vendor_device.c.
+Suppressed 81 warnings (81 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+Found compiler error(s).
+
+[ 3/34][0.0s] /Users/robot/.espressif/tools/esp-clang/esp-20.1.1_20250829/esp-clang/bin/clang-tidy -header-filter=.*\..* -checks=-*,clang-analyzer-core.NullDereference,clang-analyzer-unix.*,bugprone-*,-bugprone-macro-parentheses,readability-*,performance-*,-readability-magic-numbers,-readability-avoid-const-params-in-decls -p=/Users/robot/projects/esp32-ai-keyboard/build /Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__tinyusb/src/class/midi/midi_device.c
+error: unknown argument: '-fno-malloc-dce' [clang-diagnostic-error]
+error: unknown argument: '-fno-shrink-wrap' [clang-diagnostic-error]
+error: unknown argument: '-fzero-init-padding-bits=all' [clang-diagnostic-error]
+error: unknown warning option '-Wno-old-style-declaration'; did you mean '-Wno-out-of-line-declaration'? [clang-diagnostic-unknown-warning-option]
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_assert.h:7:9: warning: declaration uses identifier '__ESP_ASSERT_H__', which is a reserved identifier [bugprone-reserved-identifier]
+    7 | #define __ESP_ASSERT_H__
+      |         ^~~~~~~~~~~~~~~~
+      |         ESP_ASSERT_H_
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_libc/platform_include/assert.h:12:10: error: 'stdlib.h' file not found [clang-diagnostic-error]
+   12 | #include <stdlib.h>
+      |          ^~~~~~~~~~
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_libc/platform_include/assert.h:29:9: warning: declaration uses identifier '__FILENAME__', which is a reserved identifier [bugprone-reserved-identifier]
+   29 | #define __FILENAME__ (__builtin_strrchr( "/" __FILE__, '/') + 1)
+      |         ^~~~~~~~~~~~
+      |         FILENAME_
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__tinyusb/src/common/tusb_compiler.h:33:9: warning: declaration uses identifier '_TUSB_COMPILER_H_', which is a reserved identifier [bugprone-reserved-identifier]
+   33 | #define _TUSB_COMPILER_H_
+      |         ^~~~~~~~~~~~~~~~~
+      |         TUSB_COMPILER_H_
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__tinyusb/src/common/tusb_compiler.h:48:11: warning: declaration uses identifier '_TU_COUNTER_', which is a reserved identifier [bugprone-reserved-identifier]
+   48 |   #define _TU_COUNTER_ __COUNTER__
+      |           ^~~~~~~~~~~~
+      |           TU_COUNTER_
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__tinyusb/src/common/tusb_compiler.h:115:9: warning: declaration uses identifier '_TU_ARGS_APPLY_4', which is a reserved identifier [bugprone-reserved-identifier]
+  115 | #define _TU_ARGS_APPLY_4(_X, _s, _a1, _a2, _a3, _a4)                     _X(_a1) _s _TU_ARGS_APPLY_3(_X, _s, _a2, _a3, _a4)
+      |         ^~~~~~~~~~~~~~~~
+      |         TU_ARGS_APPLY_4
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__tinyusb/src/common/tusb_compiler.h:116:9: warning: declaration uses identifier '_TU_ARGS_APPLY_5', which is a reserved identifier [bugprone-reserved-identifier]
+  116 | #define _TU_ARGS_APPLY_5(_X, _s, _a1, _a2, _a3, _a4, _a5)                _X(_a1) _s _TU_ARGS_APPLY_4(_X, _s, _a2, _a3, _a4, _a5)
+      |         ^~~~~~~~~~~~~~~~
+      |         TU_ARGS_APPLY_5
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__tinyusb/src/common/tusb_compiler.h:117:9: warning: declaration uses identifier '_TU_ARGS_APPLY_6', which is a reserved identifier [bugprone-reserved-identifier]
+  117 | #define _TU_ARGS_APPLY_6(_X, _s, _a1, _a2, _a3, _a4, _a5, _a6)           _X(_a1) _s _TU_ARGS_APPLY_5(_X, _s, _a2, _a3, _a4, _a5, _a6)
+      |         ^~~~~~~~~~~~~~~~
+      |         TU_ARGS_APPLY_6
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__tinyusb/src/common/tusb_compiler.h:118:9: warning: declaration uses identifier '_TU_ARGS_APPLY_7', which is a reserved identifier [bugprone-reserved-identifier]
+  118 | #define _TU_ARGS_APPLY_7(_X, _s, _a1, _a2, _a3, _a4, _a5, _a6, _a7)      _X(_a1) _s _TU_ARGS_APPLY_6(_X, _s, _a2, _a3, _a4, _a5, _a6, _a7)
+      |         ^~~~~~~~~~~~~~~~
+      |         TU_ARGS_APPLY_7
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__tinyusb/src/common/tusb_compiler.h:119:9: warning: declaration uses identifier '_TU_ARGS_APPLY_8', which is a reserved identifier [bugprone-reserved-identifier]
+  119 | #define _TU_ARGS_APPLY_8(_X, _s, _a1, _a2, _a3, _a4, _a5, _a6, _a7, _a8) _X(_a1) _s _TU_ARGS_APPLY_7(_X, _s, _a2, _a3, _a4, _a5, _a6, _a7, _a8)
+      |         ^~~~~~~~~~~~~~~~
+      |         TU_ARGS_APPLY_8
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__tinyusb/src/tusb_option.h:28:9: warning: declaration uses identifier '_TUSB_OPTION_H_', which is a reserved identifier [bugprone-reserved-identifier]
+   28 | #define _TUSB_OPTION_H_
+      |         ^~~~~~~~~~~~~~~
+      |         TUSB_OPTION_H_
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__tinyusb/src/tusb_option.h:219:9: warning: declaration uses identifier '_TU_CHECK_MCU', which is a reserved identifier [bugprone-reserved-identifier]
+  219 | #define _TU_CHECK_MCU(_m)    (CFG_TUSB_MCU == _m)
+      |         ^~~~~~~~~~~~~
+      |         TU_CHECK_MCU
+  220 | #define TU_CHECK_MCU(...)    (TU_ARGS_APPLY(_TU_CHECK_MCU, ||, __VA_ARGS__))
+      |                                             ~~~~~~~~~~~~~
+      |                                             TU_CHECK_MCU
+92 warnings and 6 errors generated.
+Error while processing /Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__tinyusb/src/class/midi/midi_device.c.
+Suppressed 81 warnings (81 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+Found compiler error(s).
+
+[ 4/34][0.1s] /Users/robot/.espressif/tools/esp-clang/esp-20.1.1_20250829/esp-clang/bin/clang-tidy -header-filter=.*\..* -checks=-*,clang-analyzer-core.NullDereference,clang-analyzer-unix.*,bugprone-*,-bugprone-macro-parentheses,readability-*,performance-*,-readability-magic-numbers,-readability-avoid-const-params-in-decls -p=/Users/robot/projects/esp32-ai-keyboard/build /Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c
+error: unknown argument: '-fno-malloc-dce' [clang-diagnostic-error]
+error: unknown argument: '-fno-shrink-wrap' [clang-diagnostic-error]
+error: unknown argument: '-fzero-init-padding-bits=all' [clang-diagnostic-error]
+error: unknown warning option '-Wno-old-style-declaration'; did you mean '-Wno-out-of-line-declaration'? [clang-diagnostic-unknown-warning-option]
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_assert.h:7:9: warning: declaration uses identifier '__ESP_ASSERT_H__', which is a reserved identifier [bugprone-reserved-identifier]
+    7 | #define __ESP_ASSERT_H__
+      |         ^~~~~~~~~~~~~~~~
+      |         ESP_ASSERT_H_
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_attr.h:8:9: warning: declaration uses identifier '__ESP_ATTR_H__', which is a reserved identifier [bugprone-reserved-identifier]
+    8 | #define __ESP_ATTR_H__
+      |         ^~~~~~~~~~~~~~
+      |         ESP_ATTR_H_
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_attr.h:138:9: warning: declaration uses identifier '__NOINIT_ATTR', which is a reserved identifier [bugprone-reserved-identifier]
+  138 | #define __NOINIT_ATTR _SECTION_ATTR_IMPL(".noinit", __COUNTER__)
+      |         ^~~~~~~~~~~~~
+      |         NOINIT_ATTR
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_attr.h:196:9: warning: declaration uses identifier '_SECTION_ATTR_IMPL', which is a reserved identifier [bugprone-reserved-identifier]
+  196 | #define _SECTION_ATTR_IMPL(SECTION, COUNTER) __attribute__((section(SECTION "." _COUNTER_STRINGIFY(COUNTER))))
+      |         ^~~~~~~~~~~~~~~~~~
+      |         SECTION_ATTR_IMPL
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_attr.h:197:9: warning: declaration uses identifier '_SECTION_FORCE_ATTR_IMPL', which is a reserved identifier [bugprone-reserved-identifier]
+  197 | #define _SECTION_FORCE_ATTR_IMPL(SECTION, COUNTER) __attribute__((noinline, section(SECTION "." _COUNTER_STRINGIFY(COUNTER))))
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+      |         SECTION_FORCE_ATTR_IMPL
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_attr.h:198:9: warning: declaration uses identifier '_COUNTER_STRINGIFY', which is a reserved identifier [bugprone-reserved-identifier]
+  198 | #define _COUNTER_STRINGIFY(COUNTER) #COUNTER
+      |         ^~~~~~~~~~~~~~~~~~
+      |         COUNTER_STRINGIFY
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_compiler.h:56:9: warning: declaration uses identifier '__COMPILER_PRAGMA__', which is a reserved identifier [bugprone-reserved-identifier]
+   56 | #define __COMPILER_PRAGMA__(string) _Pragma(#string)
+      |         ^~~~~~~~~~~~~~~~~~~
+      |         COMPILER_PRAGMA_
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_compiler.h:57:9: warning: declaration uses identifier '_COMPILER_PRAGMA_', which is a reserved identifier [bugprone-reserved-identifier]
+   57 | #define _COMPILER_PRAGMA_(string) __COMPILER_PRAGMA__(string)
+      |         ^~~~~~~~~~~~~~~~~
+      |         COMPILER_PRAGMA_
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_err.h:79:6: warning: declaration uses identifier '_esp_error_check_failed', which is reserved in the global namespace [bugprone-reserved-identifier]
+   79 | void _esp_error_check_failed(esp_err_t rc, const char *file, int line, const char *function, const char *expression) __attribute__((__noreturn__));
+      |      ^~~~~~~~~~~~~~~~~~~~~~~
+      |      esp_error_check_failed
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_err.h:79:40: warning: parameter name 'rc' is too short, expected at least 3 characters [readability-identifier-length]
+   79 | void _esp_error_check_failed(esp_err_t rc, const char *file, int line, const char *function, const char *expression) __attribute__((__noreturn__));
+      |                                        ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_err.h:81:6: warning: declaration uses identifier '_esp_error_check_failed_without_abort', which is reserved in the global namespace [bugprone-reserved-identifier]
+   81 | void _esp_error_check_failed_without_abort(esp_err_t rc, const char *file, int line, const char *function, const char *expression);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |      esp_error_check_failed_without_abort
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_err.h:81:54: warning: parameter name 'rc' is too short, expected at least 3 characters [readability-identifier-length]
+   81 | void _esp_error_check_failed_without_abort(esp_err_t rc, const char *file, int line, const char *function, const char *expression);
+      |                                                      ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_err.h:90:9: warning: declaration uses identifier '__ASSERT_FUNC', which is a reserved identifier [bugprone-reserved-identifier]
+   90 | #define __ASSERT_FUNC "??"
+      |         ^~~~~~~~~~~~~
+      |         ASSERT_FUNC
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_driver_gpio/include/driver/gpio.h:238:36: warning: parameter name 'fn' is too short, expected at least 3 characters [readability-identifier-length]
+  238 | esp_err_t gpio_isr_register(void (*fn)(void *), void *arg, int intr_alloc_flags, gpio_isr_handle_t *handle);
+      |                                    ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_hal_gpio/include/hal/gpio_types.h:91:9: warning: initial values in enum '<unnamed>' are not consistent, consider explicit initialization of all, none or only the first enumerator [readability-enum-initial-value]
+   91 | typedef enum {
+      |         ^
+   92 |     GPIO_INTR_DISABLE = 0,     /*!< Disable GPIO interrupt                             */
+   93 |     GPIO_INTR_POSEDGE = 1,     /*!< GPIO interrupt type : rising edge                  */
+   94 |     GPIO_INTR_NEGEDGE = 2,     /*!< GPIO interrupt type : falling edge                 */
+   95 |     GPIO_INTR_ANYEDGE = 3,     /*!< GPIO interrupt type : both rising and falling edge */
+   96 |     GPIO_INTR_LOW_LEVEL = 4,   /*!< GPIO interrupt type : input low level trigger      */
+   97 |     GPIO_INTR_HIGH_LEVEL = 5,  /*!< GPIO interrupt type : input high level trigger     */
+   98 |     GPIO_INTR_MAX,
+      |                  
+      |                   = 6
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_hal_gpio/include/hal/gpio_types.h:134:9: warning: initial values in enum '<unnamed>' are not consistent, consider explicit initialization of all, none or only the first enumerator [readability-enum-initial-value]
+  134 | typedef enum {
+      |         ^
+  135 |     GPIO_DRIVE_CAP_0       = 0,    /*!< Pad drive capability: weak          */
+  136 |     GPIO_DRIVE_CAP_1       = 1,    /*!< Pad drive capability: stronger      */
+  137 |     GPIO_DRIVE_CAP_2       = 2,    /*!< Pad drive capability: medium */
+  138 |     GPIO_DRIVE_CAP_DEFAULT = 2,    /*!< Pad drive capability: medium */
+  139 |     GPIO_DRIVE_CAP_3       = 3,    /*!< Pad drive capability: strongest     */
+  140 |     GPIO_DRIVE_CAP_MAX,
+      |                       
+      |                        = 4
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_libc/platform_include/assert.h:29:9: warning: declaration uses identifier '__FILENAME__', which is a reserved identifier [bugprone-reserved-identifier]
+   29 | #define __FILENAME__ (__builtin_strrchr( "/" __FILE__, '/') + 1)
+      |         ^~~~~~~~~~~~
+      |         FILENAME_
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_rom/include/esp_rom_sys.h:56:46: warning: parameter name 'ap' is too short, expected at least 3 characters [readability-identifier-length]
+   56 | int esp_rom_vprintf(const char *fmt, va_list ap);
+      |                                              ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_rom/include/esp_rom_sys.h:91:32: warning: parameter name 'us' is too short, expected at least 3 characters [readability-identifier-length]
+   91 | void esp_rom_delay_us(uint32_t us);
+      |                                ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_rom/include/esp_rom_sys.h:100:66: warning: parameter name 'c' is too short, expected at least 3 characters [readability-identifier-length]
+  100 | void esp_rom_install_channel_putc(int channel, void (*putc)(char c));
+      |                                                                  ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_rom/include/esp_rom_sys.h:108:38: warning: parameter name 'c' is too short, expected at least 3 characters [readability-identifier-length]
+  108 | void esp_rom_output_to_channels(char c);
+      |                                      ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log_format.h:16:9: warning: declaration uses identifier '_ESP_LOG_DRAM_LOG_FORMAT', which is a reserved identifier [bugprone-reserved-identifier]
+   16 | #define _ESP_LOG_DRAM_LOG_FORMAT(letter, format)  DRAM_STR(#letter " %s: " format "\n")
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+      |         ESP_LOG_DRAM_LOG_FORMAT
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log_level.h:91:9: warning: declaration uses identifier '_ESP_LOG_EARLY_ENABLED', which is a reserved identifier [bugprone-reserved-identifier]
+   91 | #define _ESP_LOG_EARLY_ENABLED(log_level) (ESP_LOG_ENABLED(log_level) && esp_log_get_default_level() >= ESP_LOG_GET_LEVEL(log_level))
+      |         ^~~~~~~~~~~~~~~~~~~~~~
+      |         ESP_LOG_EARLY_ENABLED
+/Users/robot/.espressif/release-v6.0/esp-idf/components/soc/esp32s3/include/soc/gpio_num.h:16:9: warning: initial values in enum '<unnamed>' are not consistent, consider explicit initialization of all, none or only the first enumerator [readability-enum-initial-value]
+   16 | typedef enum {
+      |         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h:28:9: warning: declaration uses identifier '_SOC_CAPS_TARGET_IS_ESP32S3', which is a reserved identifier [bugprone-reserved-identifier]
+   28 | #define _SOC_CAPS_TARGET_IS_ESP32S3     1 // [gen_soc_caps:ignore]
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         SOC_CAPS_TARGET_IS_ESP32S3
+/Users/robot/.espressif/release-v6.0/esp-idf/components/soc/include/soc/soc_caps_eval.h:21:9: warning: declaration uses identifier '_SOC_CAPS_EVAL', which is a reserved identifier [bugprone-reserved-identifier]
+   21 | #define _SOC_CAPS_EVAL(_name)               _SOC_CAPS_ ## _name
+      |         ^~~~~~~~~~~~~~
+      |         SOC_CAPS_EVAL
+/Users/robot/.espressif/tools/esp-clang/esp-20.1.1_20250829/esp-clang/lib/clang/20/include/inttypes.h:24:15: error: 'inttypes.h' file not found [clang-diagnostic-error]
+   24 | #include_next <inttypes.h>
+      |               ^~~~~~~~~~~~
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:22:18: warning: function 'button_matrix_gpio_init' has cognitive complexity of 33 (threshold 25) [readability-function-cognitive-complexity]
+   22 | static esp_err_t button_matrix_gpio_init(int32_t gpio_num, gpio_mode_t mode)
+      |                  ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:24:5: note: +1, including nesting penalty of 0, nesting level increased to 1
+   24 |     ESP_RETURN_ON_FALSE(GPIO_IS_VALID_GPIO(gpio_num), ESP_ERR_INVALID_ARG, TAG, "gpio_num error");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:373:64: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  373 | #define ESP_RETURN_ON_FALSE(a, err_code, log_tag, format, ...) do {                             \
+      |                                                                ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:24:5: note: +2, including nesting penalty of 1, nesting level increased to 2
+   24 |     ESP_RETURN_ON_FALSE(GPIO_IS_VALID_GPIO(gpio_num), ESP_ERR_INVALID_ARG, TAG, "gpio_num error");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:374:9: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  374 |         if (unlikely(!(a))) {                                                                   \
+      |         ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:24:25: note: +1
+   24 |     ESP_RETURN_ON_FALSE(GPIO_IS_VALID_GPIO(gpio_num), ESP_ERR_INVALID_ARG, TAG, "gpio_num error");
+      |                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_hal_gpio/include/hal/gpio_types.h:21:104: note: expanded from macro 'GPIO_IS_VALID_GPIO'
+   21 | #define GPIO_IS_VALID_GPIO(gpio_num)        ((gpio_num >= 0) && (gpio_num <= (SOC_GPIO_PIN_COUNT - 1)) && \
+      |                                                                                                        ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:24:5: note: +3, including nesting penalty of 2, nesting level increased to 3
+   24 |     ESP_RETURN_ON_FALSE(GPIO_IS_VALID_GPIO(gpio_num), ESP_ERR_INVALID_ARG, TAG, "gpio_num error");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:36: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                    ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:24:5: note: +4, including nesting penalty of 3, nesting level increased to 4
+   24 |     ESP_RETURN_ON_FALSE(GPIO_IS_VALID_GPIO(gpio_num), ESP_ERR_INVALID_ARG, TAG, "gpio_num error");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:56: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                        ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:24:5: note: +5, including nesting penalty of 4, nesting level increased to 5
+   24 |     ESP_RETURN_ON_FALSE(GPIO_IS_VALID_GPIO(gpio_num), ESP_ERR_INVALID_ARG, TAG, "gpio_num error");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:61: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                             ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:24:5: note: +6, including nesting penalty of 5, nesting level increased to 6
+   24 |     ESP_RETURN_ON_FALSE(GPIO_IS_VALID_GPIO(gpio_num), ESP_ERR_INVALID_ARG, TAG, "gpio_num error");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:94: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                                                              ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:219:50: note: expanded from macro 'ESP_LOG_LEVEL'
+  219 | #define ESP_LOG_LEVEL(configs, tag, format, ...) do { \
+      |                                                  ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:24:5: note: +7, including nesting penalty of 6, nesting level increased to 7
+   24 |     ESP_RETURN_ON_FALSE(GPIO_IS_VALID_GPIO(gpio_num), ESP_ERR_INVALID_ARG, TAG, "gpio_num error");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:94: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                                                              ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:220:9: note: expanded from macro 'ESP_LOG_LEVEL'
+  220 |         if (ESP_LOG_GET_LEVEL(configs)==ESP_LOG_ERROR)        { esp_log(ESP_LOG_CONFIG_INIT(ESP_LOG_ERROR),   tag, LOG_FORMAT(E, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |         ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:24:5: note: +1, nesting level increased to 7
+   24 |     ESP_RETURN_ON_FALSE(GPIO_IS_VALID_GPIO(gpio_num), ESP_ERR_INVALID_ARG, TAG, "gpio_num error");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:94: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                                                              ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:221:14: note: expanded from macro 'ESP_LOG_LEVEL'
+  221 |         else if (ESP_LOG_GET_LEVEL(configs)==ESP_LOG_WARN)    { esp_log(ESP_LOG_CONFIG_INIT(ESP_LOG_WARN),    tag, LOG_FORMAT(W, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |              ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:24:5: note: +1, nesting level increased to 7
+   24 |     ESP_RETURN_ON_FALSE(GPIO_IS_VALID_GPIO(gpio_num), ESP_ERR_INVALID_ARG, TAG, "gpio_num error");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:94: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                                                              ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:222:14: note: expanded from macro 'ESP_LOG_LEVEL'
+  222 |         else if (ESP_LOG_GET_LEVEL(configs)==ESP_LOG_DEBUG)   { esp_log(ESP_LOG_CONFIG_INIT(ESP_LOG_DEBUG),   tag, LOG_FORMAT(D, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |              ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:24:5: note: +1, nesting level increased to 7
+   24 |     ESP_RETURN_ON_FALSE(GPIO_IS_VALID_GPIO(gpio_num), ESP_ERR_INVALID_ARG, TAG, "gpio_num error");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:94: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                                                              ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:223:14: note: expanded from macro 'ESP_LOG_LEVEL'
+  223 |         else if (ESP_LOG_GET_LEVEL(configs)==ESP_LOG_VERBOSE) { esp_log(ESP_LOG_CONFIG_INIT(ESP_LOG_VERBOSE), tag, LOG_FORMAT(V, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |              ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:24:5: note: +1, nesting level increased to 7
+   24 |     ESP_RETURN_ON_FALSE(GPIO_IS_VALID_GPIO(gpio_num), ESP_ERR_INVALID_ARG, TAG, "gpio_num error");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:94: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                                                              ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:224:9: note: expanded from macro 'ESP_LOG_LEVEL'
+  224 |         else                                                  { esp_log(ESP_LOG_CONFIG_INIT(ESP_LOG_INFO),    tag, LOG_FORMAT(I, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |         ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:22:42: warning: 2 adjacent parameters of 'button_matrix_gpio_init' of convertible types are easily swapped by mistake [bugprone-easily-swappable-parameters]
+   22 | static esp_err_t button_matrix_gpio_init(int32_t gpio_num, gpio_mode_t mode)
+      |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:22:50: note: the first parameter in the range is 'gpio_num'
+   22 | static esp_err_t button_matrix_gpio_init(int32_t gpio_num, gpio_mode_t mode)
+      |                                                  ^~~~~~~~
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:22:72: note: the last parameter in the range is 'mode'
+   22 | static esp_err_t button_matrix_gpio_init(int32_t gpio_num, gpio_mode_t mode)
+      |                                                                        ^~~~
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:22:42: note: 
+   22 | static esp_err_t button_matrix_gpio_init(int32_t gpio_num, gpio_mode_t mode)
+      |                                          ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:22:60: note: 'int32_t' and 'gpio_mode_t' may be implicitly converted: 'int32_t' (as 'int') -> 'gpio_mode_t', 'gpio_mode_t' -> 'int32_t' (as 'int')
+   22 | static esp_err_t button_matrix_gpio_init(int32_t gpio_num, gpio_mode_t mode)
+      |                                                            ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:24:5: warning: repeated branch body in conditional chain [bugprone-branch-clone]
+   24 |     ESP_RETURN_ON_FALSE(GPIO_IS_VALID_GPIO(gpio_num), ESP_ERR_INVALID_ARG, TAG, "gpio_num error");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:94: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                                                              ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:220:63: note: expanded from macro 'ESP_LOG_LEVEL'
+  220 |         if (ESP_LOG_GET_LEVEL(configs)==ESP_LOG_ERROR)        { esp_log(ESP_LOG_CONFIG_INIT(ESP_LOG_ERROR),   tag, LOG_FORMAT(E, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                               ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:24:5: note: clone 1 starts here
+   24 |     ESP_RETURN_ON_FALSE(GPIO_IS_VALID_GPIO(gpio_num), ESP_ERR_INVALID_ARG, TAG, "gpio_num error");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:94: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                                                              ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:221:63: note: expanded from macro 'ESP_LOG_LEVEL'
+  221 |         else if (ESP_LOG_GET_LEVEL(configs)==ESP_LOG_WARN)    { esp_log(ESP_LOG_CONFIG_INIT(ESP_LOG_WARN),    tag, LOG_FORMAT(W, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                               ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:24:5: note: clone 2 starts here
+   24 |     ESP_RETURN_ON_FALSE(GPIO_IS_VALID_GPIO(gpio_num), ESP_ERR_INVALID_ARG, TAG, "gpio_num error");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:94: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                                                              ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:222:63: note: expanded from macro 'ESP_LOG_LEVEL'
+  222 |         else if (ESP_LOG_GET_LEVEL(configs)==ESP_LOG_DEBUG)   { esp_log(ESP_LOG_CONFIG_INIT(ESP_LOG_DEBUG),   tag, LOG_FORMAT(D, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                               ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:24:5: note: clone 3 starts here
+   24 |     ESP_RETURN_ON_FALSE(GPIO_IS_VALID_GPIO(gpio_num), ESP_ERR_INVALID_ARG, TAG, "gpio_num error");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:94: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                                                              ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:223:63: note: expanded from macro 'ESP_LOG_LEVEL'
+  223 |         else if (ESP_LOG_GET_LEVEL(configs)==ESP_LOG_VERBOSE) { esp_log(ESP_LOG_CONFIG_INIT(ESP_LOG_VERBOSE), tag, LOG_FORMAT(V, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                               ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:24:5: note: clone 4 starts here
+   24 |     ESP_RETURN_ON_FALSE(GPIO_IS_VALID_GPIO(gpio_num), ESP_ERR_INVALID_ARG, TAG, "gpio_num error");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:94: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                                                              ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:224:63: note: expanded from macro 'ESP_LOG_LEVEL'
+  224 |         else                                                  { esp_log(ESP_LOG_CONFIG_INIT(ESP_LOG_INFO),    tag, LOG_FORMAT(I, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                               ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:53:11: warning: function 'iot_button_new_matrix_device' has cognitive complexity of 199 (threshold 25) [readability-function-cognitive-complexity]
+   53 | esp_err_t iot_button_new_matrix_device(const button_config_t *button_config, const button_matrix_config_t *matrix_config, button_handle_t *ret_button, size_t *size)
+      |           ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:56:5: note: +1, including nesting penalty of 0, nesting level increased to 1
+   56 |     ESP_RETURN_ON_FALSE(button_config && matrix_config && ret_button, ESP_ERR_INVALID_ARG, TAG, "Invalid argument");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:373:64: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  373 | #define ESP_RETURN_ON_FALSE(a, err_code, log_tag, format, ...) do {                             \
+      |                                                                ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:56:5: note: +2, including nesting penalty of 1, nesting level increased to 2
+   56 |     ESP_RETURN_ON_FALSE(button_config && matrix_config && ret_button, ESP_ERR_INVALID_ARG, TAG, "Invalid argument");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:374:9: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  374 |         if (unlikely(!(a))) {                                                                   \
+      |         ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:56:56: note: +1
+   56 |     ESP_RETURN_ON_FALSE(button_config && matrix_config && ret_button, ESP_ERR_INVALID_ARG, TAG, "Invalid argument");
+      |                                                        ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:56:5: note: +3, including nesting penalty of 2, nesting level increased to 3
+   56 |     ESP_RETURN_ON_FALSE(button_config && matrix_config && ret_button, ESP_ERR_INVALID_ARG, TAG, "Invalid argument");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:36: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                    ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:56:5: note: +4, including nesting penalty of 3, nesting level increased to 4
+   56 |     ESP_RETURN_ON_FALSE(button_config && matrix_config && ret_button, ESP_ERR_INVALID_ARG, TAG, "Invalid argument");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:56: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                        ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:56:5: note: +5, including nesting penalty of 4, nesting level increased to 5
+   56 |     ESP_RETURN_ON_FALSE(button_config && matrix_config && ret_button, ESP_ERR_INVALID_ARG, TAG, "Invalid argument");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:61: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                             ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:56:5: note: +6, including nesting penalty of 5, nesting level increased to 6
+   56 |     ESP_RETURN_ON_FALSE(button_config && matrix_config && ret_button, ESP_ERR_INVALID_ARG, TAG, "Invalid argument");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:94: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                                                              ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:219:50: note: expanded from macro 'ESP_LOG_LEVEL'
+  219 | #define ESP_LOG_LEVEL(configs, tag, format, ...) do { \
+      |                                                  ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:56:5: note: +7, including nesting penalty of 6, nesting level increased to 7
+   56 |     ESP_RETURN_ON_FALSE(button_config && matrix_config && ret_button, ESP_ERR_INVALID_ARG, TAG, "Invalid argument");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:94: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                                                              ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:220:9: note: expanded from macro 'ESP_LOG_LEVEL'
+  220 |         if (ESP_LOG_GET_LEVEL(configs)==ESP_LOG_ERROR)        { esp_log(ESP_LOG_CONFIG_INIT(ESP_LOG_ERROR),   tag, LOG_FORMAT(E, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |         ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:56:5: note: +1, nesting level increased to 7
+   56 |     ESP_RETURN_ON_FALSE(button_config && matrix_config && ret_button, ESP_ERR_INVALID_ARG, TAG, "Invalid argument");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:94: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                                                              ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:221:14: note: expanded from macro 'ESP_LOG_LEVEL'
+  221 |         else if (ESP_LOG_GET_LEVEL(configs)==ESP_LOG_WARN)    { esp_log(ESP_LOG_CONFIG_INIT(ESP_LOG_WARN),    tag, LOG_FORMAT(W, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |              ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:56:5: note: +1, nesting level increased to 7
+   56 |     ESP_RETURN_ON_FALSE(button_config && matrix_config && ret_button, ESP_ERR_INVALID_ARG, TAG, "Invalid argument");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:94: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                                                              ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:222:14: note: expanded from macro 'ESP_LOG_LEVEL'
+  222 |         else if (ESP_LOG_GET_LEVEL(configs)==ESP_LOG_DEBUG)   { esp_log(ESP_LOG_CONFIG_INIT(ESP_LOG_DEBUG),   tag, LOG_FORMAT(D, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |              ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:56:5: note: +1, nesting level increased to 7
+   56 |     ESP_RETURN_ON_FALSE(button_config && matrix_config && ret_button, ESP_ERR_INVALID_ARG, TAG, "Invalid argument");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:94: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                                                              ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:223:14: note: expanded from macro 'ESP_LOG_LEVEL'
+  223 |         else if (ESP_LOG_GET_LEVEL(configs)==ESP_LOG_VERBOSE) { esp_log(ESP_LOG_CONFIG_INIT(ESP_LOG_VERBOSE), tag, LOG_FORMAT(V, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |              ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:56:5: note: +1, nesting level increased to 7
+   56 |     ESP_RETURN_ON_FALSE(button_config && matrix_config && ret_button, ESP_ERR_INVALID_ARG, TAG, "Invalid argument");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:94: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                                                              ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:224:9: note: expanded from macro 'ESP_LOG_LEVEL'
+  224 |         else                                                  { esp_log(ESP_LOG_CONFIG_INIT(ESP_LOG_INFO),    tag, LOG_FORMAT(I, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |         ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:57:5: note: +1, including nesting penalty of 0, nesting level increased to 1
+   57 |     ESP_RETURN_ON_FALSE(matrix_config->col_gpios && matrix_config->row_gpios, ESP_ERR_INVALID_ARG, TAG, "Invalid matrix config");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:373:64: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  373 | #define ESP_RETURN_ON_FALSE(a, err_code, log_tag, format, ...) do {                             \
+      |                                                                ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:57:5: note: +2, including nesting penalty of 1, nesting level increased to 2
+   57 |     ESP_RETURN_ON_FALSE(matrix_config->col_gpios && matrix_config->row_gpios, ESP_ERR_INVALID_ARG, TAG, "Invalid matrix config");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:374:9: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  374 |         if (unlikely(!(a))) {                                                                   \
+      |         ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:57:50: note: +1
+   57 |     ESP_RETURN_ON_FALSE(matrix_config->col_gpios && matrix_config->row_gpios, ESP_ERR_INVALID_ARG, TAG, "Invalid matrix config");
+      |                                                  ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:57:5: note: +3, including nesting penalty of 2, nesting level increased to 3
+   57 |     ESP_RETURN_ON_FALSE(matrix_config->col_gpios && matrix_config->row_gpios, ESP_ERR_INVALID_ARG, TAG, "Invalid matrix config");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:36: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                    ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:57:5: note: +4, including nesting penalty of 3, nesting level increased to 4
+   57 |     ESP_RETURN_ON_FALSE(matrix_config->col_gpios && matrix_config->row_gpios, ESP_ERR_INVALID_ARG, TAG, "Invalid matrix config");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:56: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                        ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:57:5: note: +5, including nesting penalty of 4, nesting level increased to 5
+   57 |     ESP_RETURN_ON_FALSE(matrix_config->col_gpios && matrix_config->row_gpios, ESP_ERR_INVALID_ARG, TAG, "Invalid matrix config");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:61: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                             ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:57:5: note: +6, including nesting penalty of 5, nesting level increased to 6
+   57 |     ESP_RETURN_ON_FALSE(matrix_config->col_gpios && matrix_config->row_gpios, ESP_ERR_INVALID_ARG, TAG, "Invalid matrix config");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:94: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                                                              ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:219:50: note: expanded from macro 'ESP_LOG_LEVEL'
+  219 | #define ESP_LOG_LEVEL(configs, tag, format, ...) do { \
+      |                                                  ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:57:5: note: +7, including nesting penalty of 6, nesting level increased to 7
+   57 |     ESP_RETURN_ON_FALSE(matrix_config->col_gpios && matrix_config->row_gpios, ESP_ERR_INVALID_ARG, TAG, "Invalid matrix config");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:94: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                                                              ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:220:9: note: expanded from macro 'ESP_LOG_LEVEL'
+  220 |         if (ESP_LOG_GET_LEVEL(configs)==ESP_LOG_ERROR)        { esp_log(ESP_LOG_CONFIG_INIT(ESP_LOG_ERROR),   tag, LOG_FORMAT(E, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |         ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:57:5: note: +1, nesting level increased to 7
+   57 |     ESP_RETURN_ON_FALSE(matrix_config->col_gpios && matrix_config->row_gpios, ESP_ERR_INVALID_ARG, TAG, "Invalid matrix config");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:94: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                                                              ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:221:14: note: expanded from macro 'ESP_LOG_LEVEL'
+  221 |         else if (ESP_LOG_GET_LEVEL(configs)==ESP_LOG_WARN)    { esp_log(ESP_LOG_CONFIG_INIT(ESP_LOG_WARN),    tag, LOG_FORMAT(W, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |              ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:57:5: note: +1, nesting level increased to 7
+   57 |     ESP_RETURN_ON_FALSE(matrix_config->col_gpios && matrix_config->row_gpios, ESP_ERR_INVALID_ARG, TAG, "Invalid matrix config");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:94: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                                                              ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:222:14: note: expanded from macro 'ESP_LOG_LEVEL'
+  222 |         else if (ESP_LOG_GET_LEVEL(configs)==ESP_LOG_DEBUG)   { esp_log(ESP_LOG_CONFIG_INIT(ESP_LOG_DEBUG),   tag, LOG_FORMAT(D, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |              ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:57:5: note: +1, nesting level increased to 7
+   57 |     ESP_RETURN_ON_FALSE(matrix_config->col_gpios && matrix_config->row_gpios, ESP_ERR_INVALID_ARG, TAG, "Invalid matrix config");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:94: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                                                              ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:223:14: note: expanded from macro 'ESP_LOG_LEVEL'
+  223 |         else if (ESP_LOG_GET_LEVEL(configs)==ESP_LOG_VERBOSE) { esp_log(ESP_LOG_CONFIG_INIT(ESP_LOG_VERBOSE), tag, LOG_FORMAT(V, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |              ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:57:5: note: +1, nesting level increased to 7
+   57 |     ESP_RETURN_ON_FALSE(matrix_config->col_gpios && matrix_config->row_gpios, ESP_ERR_INVALID_ARG, TAG, "Invalid matrix config");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:94: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                                                              ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:224:9: note: expanded from macro 'ESP_LOG_LEVEL'
+  224 |         else                                                  { esp_log(ESP_LOG_CONFIG_INIT(ESP_LOG_INFO),    tag, LOG_FORMAT(I, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |         ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:58:5: note: +1, including nesting penalty of 0, nesting level increased to 1
+   58 |     ESP_RETURN_ON_FALSE(matrix_config->col_gpio_num > 0 && matrix_config->row_gpio_num > 0, ESP_ERR_INVALID_ARG, TAG, "Invalid matrix config");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:373:64: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  373 | #define ESP_RETURN_ON_FALSE(a, err_code, log_tag, format, ...) do {                             \
+      |                                                                ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:58:5: note: +2, including nesting penalty of 1, nesting level increased to 2
+   58 |     ESP_RETURN_ON_FALSE(matrix_config->col_gpio_num > 0 && matrix_config->row_gpio_num > 0, ESP_ERR_INVALID_ARG, TAG, "Invalid matrix config");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:374:9: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  374 |         if (unlikely(!(a))) {                                                                   \
+      |         ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:58:57: note: +1
+   58 |     ESP_RETURN_ON_FALSE(matrix_config->col_gpio_num > 0 && matrix_config->row_gpio_num > 0, ESP_ERR_INVALID_ARG, TAG, "Invalid matrix config");
+      |                                                         ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:58:5: note: +3, including nesting penalty of 2, nesting level increased to 3
+   58 |     ESP_RETURN_ON_FALSE(matrix_config->col_gpio_num > 0 && matrix_config->row_gpio_num > 0, ESP_ERR_INVALID_ARG, TAG, "Invalid matrix config");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:36: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                    ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:58:5: note: +4, including nesting penalty of 3, nesting level increased to 4
+   58 |     ESP_RETURN_ON_FALSE(matrix_config->col_gpio_num > 0 && matrix_config->row_gpio_num > 0, ESP_ERR_INVALID_ARG, TAG, "Invalid matrix config");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:56: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                        ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:58:5: note: +5, including nesting penalty of 4, nesting level increased to 5
+   58 |     ESP_RETURN_ON_FALSE(matrix_config->col_gpio_num > 0 && matrix_config->row_gpio_num > 0, ESP_ERR_INVALID_ARG, TAG, "Invalid matrix config");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:61: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                             ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:58:5: note: +6, including nesting penalty of 5, nesting level increased to 6
+   58 |     ESP_RETURN_ON_FALSE(matrix_config->col_gpio_num > 0 && matrix_config->row_gpio_num > 0, ESP_ERR_INVALID_ARG, TAG, "Invalid matrix config");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:94: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                                                              ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:219:50: note: expanded from macro 'ESP_LOG_LEVEL'
+  219 | #define ESP_LOG_LEVEL(configs, tag, format, ...) do { \
+      |                                                  ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:58:5: note: +7, including nesting penalty of 6, nesting level increased to 7
+   58 |     ESP_RETURN_ON_FALSE(matrix_config->col_gpio_num > 0 && matrix_config->row_gpio_num > 0, ESP_ERR_INVALID_ARG, TAG, "Invalid matrix config");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:94: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                                                              ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:220:9: note: expanded from macro 'ESP_LOG_LEVEL'
+  220 |         if (ESP_LOG_GET_LEVEL(configs)==ESP_LOG_ERROR)        { esp_log(ESP_LOG_CONFIG_INIT(ESP_LOG_ERROR),   tag, LOG_FORMAT(E, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |         ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:58:5: note: +1, nesting level increased to 7
+   58 |     ESP_RETURN_ON_FALSE(matrix_config->col_gpio_num > 0 && matrix_config->row_gpio_num > 0, ESP_ERR_INVALID_ARG, TAG, "Invalid matrix config");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:94: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                                                              ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:221:14: note: expanded from macro 'ESP_LOG_LEVEL'
+  221 |         else if (ESP_LOG_GET_LEVEL(configs)==ESP_LOG_WARN)    { esp_log(ESP_LOG_CONFIG_INIT(ESP_LOG_WARN),    tag, LOG_FORMAT(W, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |              ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:58:5: note: +1, nesting level increased to 7
+   58 |     ESP_RETURN_ON_FALSE(matrix_config->col_gpio_num > 0 && matrix_config->row_gpio_num > 0, ESP_ERR_INVALID_ARG, TAG, "Invalid matrix config");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:94: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                                                              ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:222:14: note: expanded from macro 'ESP_LOG_LEVEL'
+  222 |         else if (ESP_LOG_GET_LEVEL(configs)==ESP_LOG_DEBUG)   { esp_log(ESP_LOG_CONFIG_INIT(ESP_LOG_DEBUG),   tag, LOG_FORMAT(D, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |              ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:58:5: note: +1, nesting level increased to 7
+   58 |     ESP_RETURN_ON_FALSE(matrix_config->col_gpio_num > 0 && matrix_config->row_gpio_num > 0, ESP_ERR_INVALID_ARG, TAG, "Invalid matrix config");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:94: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                                                              ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:223:14: note: expanded from macro 'ESP_LOG_LEVEL'
+  223 |         else if (ESP_LOG_GET_LEVEL(configs)==ESP_LOG_VERBOSE) { esp_log(ESP_LOG_CONFIG_INIT(ESP_LOG_VERBOSE), tag, LOG_FORMAT(V, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |              ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:58:5: note: +1, nesting level increased to 7
+   58 |     ESP_RETURN_ON_FALSE(matrix_config->col_gpio_num > 0 && matrix_config->row_gpio_num > 0, ESP_ERR_INVALID_ARG, TAG, "Invalid matrix config");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:94: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                                                              ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:224:9: note: expanded from macro 'ESP_LOG_LEVEL'
+  224 |         else                                                  { esp_log(ESP_LOG_CONFIG_INIT(ESP_LOG_INFO),    tag, LOG_FORMAT(I, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |         ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:59:5: note: +1, including nesting penalty of 0, nesting level increased to 1
+   59 |     ESP_RETURN_ON_FALSE(*size == matrix_config->row_gpio_num * matrix_config->col_gpio_num, ESP_ERR_INVALID_ARG, TAG, "Invalid size");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:373:64: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  373 | #define ESP_RETURN_ON_FALSE(a, err_code, log_tag, format, ...) do {                             \
+      |                                                                ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:59:5: note: +2, including nesting penalty of 1, nesting level increased to 2
+   59 |     ESP_RETURN_ON_FALSE(*size == matrix_config->row_gpio_num * matrix_config->col_gpio_num, ESP_ERR_INVALID_ARG, TAG, "Invalid size");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:374:9: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  374 |         if (unlikely(!(a))) {                                                                   \
+      |         ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:59:5: note: +3, including nesting penalty of 2, nesting level increased to 3
+   59 |     ESP_RETURN_ON_FALSE(*size == matrix_config->row_gpio_num * matrix_config->col_gpio_num, ESP_ERR_INVALID_ARG, TAG, "Invalid size");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:36: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                    ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:59:5: note: +4, including nesting penalty of 3, nesting level increased to 4
+   59 |     ESP_RETURN_ON_FALSE(*size == matrix_config->row_gpio_num * matrix_config->col_gpio_num, ESP_ERR_INVALID_ARG, TAG, "Invalid size");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:56: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                        ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:59:5: note: +5, including nesting penalty of 4, nesting level increased to 5
+   59 |     ESP_RETURN_ON_FALSE(*size == matrix_config->row_gpio_num * matrix_config->col_gpio_num, ESP_ERR_INVALID_ARG, TAG, "Invalid size");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:61: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                             ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:59:5: note: +6, including nesting penalty of 5, nesting level increased to 6
+   59 |     ESP_RETURN_ON_FALSE(*size == matrix_config->row_gpio_num * matrix_config->col_gpio_num, ESP_ERR_INVALID_ARG, TAG, "Invalid size");
+      |     ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/esp_common/include/esp_check.h:375:13: note: expanded from macro 'ESP_RETURN_ON_FALSE'
+  375 |             ESP_LOGE(log_tag, "%s(%d): " format, __FUNCTION__, __LINE__, ##__VA_ARGS__);        \
+      |             ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:123:41: note: expanded from macro 'ESP_LOGE'
+  123 | #define ESP_LOGE(tag, format, ...) do { ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR, tag, format, ##__VA_ARGS__); } while(0)
+      |                                         ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:165:94: note: expanded from macro 'ESP_LOG_LEVEL_LOCAL'
+  165 | #define ESP_LOG_LEVEL_LOCAL(configs, tag, format, ...) do { if (_ESP_LOG_ENABLED(configs)) { ESP_LOG_LEVEL(configs, tag, format, ##__VA_ARGS__); } } while(0)
+      |                                                                                              ^
+/Users/robot/.espressif/release-v6.0/esp-idf/components/log/include/esp_log.h:219:50: note: expanded from macro 'ESP_LOG_LEVEL'
+  219 | #define ESP_LOG_LEVEL(configs, tag, format, ...) do { \
+      |                                                  ^
+/Users/robot/projects/esp32-ai-keyboard/managed_components/espressif__button/button_matrix.c:59:5: note: +7, including nesting penalty of 6, nesting level increased to 7
